@@ -38,8 +38,18 @@ h6 {
 }
 
 .map {
-  height: 400px;
+  min-height: 150px;
   width: 90%;
+}
+
+.map p {
+  align-items: center;
+  font-size: 12px;
+  opacity: 0;
+  transition:opacity 12s linear;
+}
+.map p:hover {
+  opacity:1;
 }
 
 button {
@@ -125,8 +135,8 @@ p {
 i {
   align-items: center;
   font-size: 50px;
-  opacity:1;
-  transition:opacity 2s linear;
+  opacity: 0;
+  transition:opacity 12s linear;
 }
 i:hover {
   opacity:1;
