@@ -2,6 +2,7 @@
   /* text-align: center; */
   padding: 0;
   height: 100vh;
+  cursor: url('/my-graph/src/HP_Wand.png'), auto;
 }
 
 
@@ -45,7 +46,7 @@ h6 {
 .map p {
   align-items: center;
   font-size: 12px;
-  opacity: 0;
+  opacity: 0.05;
   transition:opacity 12s linear;
 }
 .map p:hover {
@@ -59,7 +60,8 @@ button {
   /* color: #282c34; */
   color: #454035;
   font-size: 1.5rem;
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('/my-graph/src/HP_Wand.png'), auto;
   -webkit-appearance: none;
   font-weight: 100;
   padding: 5px;
@@ -107,7 +109,7 @@ p {
   justify-content: center;
   width: 100%;
   margin: 0;
-  cursor: pointer;
+  cursor: url('/my-graph/src/HP_Wand.png'), auto;
   font-weight: 100;
 }
 
@@ -127,7 +129,8 @@ p {
   /* height: 100%;
   display: flex;
   align-items: flex-start; */
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('/my-graph/src/HP_Wand.png'), auto; 
   font-weight: 100;
 }
 
